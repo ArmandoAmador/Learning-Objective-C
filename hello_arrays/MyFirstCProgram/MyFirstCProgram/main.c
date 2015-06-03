@@ -2,10 +2,7 @@
 
 int main()
 {
-    float numbers_geeks_love[3];
-    numbers_geeks_love[0] = 3.1415;
-    numbers_geeks_love[1] = 1.6180;
-    numbers_geeks_love[2] = 1.4142;
+    float numbers_geeks_love[] = {3.1415, 1.6180, 1.4142};
     
     printf("PI %f\n", numbers_geeks_love[0]);
     printf("golden ratio %f\n", numbers_geeks_love[1]);
