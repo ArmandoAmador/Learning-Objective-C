@@ -16,5 +16,13 @@ int main()
         ++w;
         
     }
+
+    int y = 0;
+    do {
+        printf("letter %d is %c\n", y, letters[y]);
+        ++y;
+    } while (y < 3);
+    
+    
     return 0;
 }
