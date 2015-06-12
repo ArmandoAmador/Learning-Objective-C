@@ -17,4 +17,8 @@
     return _center;
 }
 
+-(void)setCenter:(NSArray *)center radius:(float)radius {
+    _center = center;
+    _radius = radius;
+}
 @end
